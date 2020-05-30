@@ -142,25 +142,6 @@
 \end{frame}
 
 \begin{frame}
-  \frametitle{Model ES-ARMA - wady i zalety}
-  \begin{exampleblock}{Zalety}
-    \begin{itemize}
-      \item dobra dokładność,
-      \item łatwe wyznaczanie kolejnego wyjścia,
-      \item możliwa wymiana modelu wewnętrznego,
-      \item znana struktura modelu - model parametryczny.
-    \end{itemize}
-  \end{exampleblock}
-  \begin{alertblock}{Wady}
-    \begin{itemize}
-      \item kosztowny proces szukania hiperparametrów,
-      \item do szukania parametrów wykorzystana MNK,
-      \item złożoność rośnie nieliniowo względem wejść.
-    \end{itemize}
-  \end{alertblock}
-\end{frame}
-
-\begin{frame}
   \frametitle{Działanie modelu ES-ARMA dla sygnału LT01}
     \begin{figure}[t]
       \centering
@@ -438,6 +419,25 @@
     \end{figure}
 \end{frame}
 
+\begin{frame}
+  \frametitle{Model ES-ARMA - wady i zalety}
+  \begin{exampleblock}{Zalety}
+    \begin{itemize}
+      \item dobra dokładność,
+      \item łatwe wyznaczanie kolejnego wyjścia,
+      \item możliwa wymiana modelu wewnętrznego,
+      \item znana struktura modelu - model parametryczny.
+    \end{itemize}
+  \end{exampleblock}
+  \begin{alertblock}{Wady}
+    \begin{itemize}
+      \item kosztowny proces szukania hiperparametrów,
+      \item do szukania parametrów wykorzystana MNK,
+      \item złożoność rośnie nieliniowo względem wejść.
+    \end{itemize}
+  \end{alertblock}
+\end{frame}
+
 \begin{frame}[plain,c]
   \begin{center}
     \Huge Model KNNR
@@ -479,25 +479,6 @@
       \item agregacja danych w pamięci modelu.
     \end{itemize}
   \end{block}
-\end{frame}
-
-\begin{frame}
-  \frametitle{Model KNNR - wady i zalety}
-  \begin{exampleblock}{Zalety}
-    \begin{itemize}
-      \item dobra dokładność,
-      \item proste uczenie,
-      \item łatwa implementacja.
-    \end{itemize}
-  \end{exampleblock}
-  \begin{alertblock}{Wady}
-    \begin{itemize}
-      \item model nieparametryczny,
-      \item brak informacji o strukturze obiektu,
-      \item duża złożoność obliczeniowa przy obliczaniu nowego wyjścia modelu,
-      \item dane uczące muszą dobrze pobudzać cały zakres działania modelu.
-    \end{itemize}
-  \end{alertblock}
 \end{frame}
 
 \begin{frame}
@@ -776,6 +757,25 @@
       \end{tikzpicture}
       \caption{Porównanie działania modelu KNNR z danymi weryfikacyjnymi (3)}
     \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Model KNNR - wady i zalety}
+  \begin{exampleblock}{Zalety}
+    \begin{itemize}
+      \item dobra dokładność,
+      \item proste uczenie,
+      \item łatwa implementacja.
+    \end{itemize}
+  \end{exampleblock}
+  \begin{alertblock}{Wady}
+    \begin{itemize}
+      \item model nieparametryczny,
+      \item brak informacji o strukturze obiektu,
+      \item duża złożoność obliczeniowa przy obliczaniu nowego wyjścia modelu,
+      \item dane uczące muszą dobrze pobudzać cały zakres działania modelu.
+    \end{itemize}
+  \end{alertblock}
 \end{frame}
 
 \end{document} 
