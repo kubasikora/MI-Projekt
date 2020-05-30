@@ -1,0 +1,15 @@
+*.aux
+*.bbl
+*.blg
+*.fdb_latex
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.synctex(busy)
+*.nav
+*.toc
+*.snm
+
+PrezentacjaMI.pdf
