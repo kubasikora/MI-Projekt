@@ -10,10 +10,10 @@ outputNames = {'DP','LT01'};
 selected_out=2;
 
 if selected_out==1
-    lb = 0.2;
+    lb = 0.4;
     ub = 0.6;
 else
-    lb = 0.2;
+    lb = 0.3;
     ub = 0.4;
 end
 
