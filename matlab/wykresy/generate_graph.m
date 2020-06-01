@@ -40,8 +40,8 @@ for i=1:4
     [y,testy,~,~,own_fit,testt]=test_data(i,outputNames,sys,sel_var,t);
     fig = figure;
     hold on;
-    plot(testt,testy,'r-','LineWidth',1.5);
-    plot(testt,y.y,'b-','LineWidth',1.5);
+    plot(testt,testy,'b-','LineWidth',1.5);
+    plot(testt,y.y,'r-','LineWidth',1.5);
     legend('y_{real}','y_{model}');
     ylabel(outputNames{selected_out});
     xlabel('Czas[s]');
